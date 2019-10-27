@@ -31,11 +31,11 @@ def play(songs)
   
   songs.each 
   
-    if user_response == valid_input
-      puts "Playing #{song}"
-    else 
-      puts "Invalid input, please try again"
-    end 
+    #if user_response == valid_input
+     # puts "Playing #{song}"
+    #else 
+     # puts "Invalid input, please try again"
+    #end 
   end
 end
 
