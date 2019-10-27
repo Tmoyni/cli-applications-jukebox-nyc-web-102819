@@ -30,7 +30,7 @@ def play(songs)
   user_response = gets.strip
   
     if user_response == valid_input
-      puts "Playing <song name>"
+      puts "Playing #{song}"
     else 
       puts "Invalid input, please try again"
   end
