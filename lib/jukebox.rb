@@ -46,7 +46,7 @@ def run(songs)
   
   if user_command == "exit"
     exit_jukebox
- =begin
+=begin
   if user_command == "list"
     list
     
@@ -58,7 +58,7 @@ def run(songs)
   
   else user_command == "exit"
     exit_jukebox
-  =end
+=end
   end
   user_command
 end
