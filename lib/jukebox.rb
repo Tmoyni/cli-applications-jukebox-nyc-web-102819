@@ -29,7 +29,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_response = gets.strip
   
-  songs.each 
+ # songs.each 
   
     #if user_response == valid_input
      # puts "Playing #{song}"
