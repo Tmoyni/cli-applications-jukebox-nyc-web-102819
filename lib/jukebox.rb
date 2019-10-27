@@ -41,13 +41,14 @@ def exit_jukebox
   puts "Goodbye"
 end
 
+=begin
 def run(songs) 
   puts "Please enter a command:"
   user_command = gets.strip
   
   if user_command == "exit"
     exit_jukebox
-=begin
+
   if user_command == "list"
     list
     
@@ -59,6 +60,7 @@ def run(songs)
   
   else user_command == "exit"
     exit_jukebox
-=end
+
   end
 end
+=end
