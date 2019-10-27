@@ -58,4 +58,5 @@ def run(songs)
   when user_command == "help"
     help
   end
+  end
 end
