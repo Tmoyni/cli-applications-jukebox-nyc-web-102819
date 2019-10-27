@@ -43,20 +43,20 @@ end
 
 def run(songs) 
   while true do
-  puts "Please enter a command:"
-  user_command = gets.strip
+    puts "Please enter a command:"
+   user_command = gets.strip
   
-  when user_command == "exit"
+   when user_command == "exit"
     exit_jukebox
     
-  when user_command == "list"
+   when user_command == "list"
     list
     
-  when user_command == "play"
+   when user_command == "play"
     play
     
-  when user_command == "help"
+   when user_command == "help"
     help
-  end
+   end
   end
 end
