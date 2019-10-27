@@ -20,12 +20,13 @@ end
 
 def list(songs) 
   songs.each_with_index {|song, index|
-  puts "#{index+1}. #{song}"
+    puts "#{index+1}. #{song}"
   }
 end
 
 def play(songs)
   valid_input = [#{index+1}, #{song}]
+  
   puts "Please enter a song name or number:"
   user_response = gets.strip
   
@@ -57,7 +58,6 @@ def run(songs)
   
   else user_command == "exit"
     exit_jukebox
-=end
   end
   user_command
 end
