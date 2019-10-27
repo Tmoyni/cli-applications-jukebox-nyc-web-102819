@@ -26,6 +26,7 @@ end
 
 def play(songs)
   valid_input = [#{index+1}, #{song}]
+  
   puts "Please enter a song name or number:"
   user_response = gets.strip
   
