@@ -61,5 +61,4 @@ def run(songs)
     exit_jukebox
 =end
   end
-  user_command
 end
