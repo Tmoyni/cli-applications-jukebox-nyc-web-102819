@@ -47,17 +47,15 @@ def run(songs)
   
   if user_command == "exit"
     exit_jukebox
+    
   if user_command == "list"
     list
     
   elsif user_command == "play"
     play
     
-  elsif user_command == "help"
+  else user_command == "help"
     help
-  
-  else user_command == "exit"
-    exit_jukebox
   end
   user_command
 end
