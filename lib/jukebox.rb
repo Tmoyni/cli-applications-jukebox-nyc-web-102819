@@ -34,6 +34,7 @@ def play(songs)
     else 
       puts "Invalid input, please try again"
     end
+  end
 end
 
 def exit_jukebox
@@ -56,5 +57,4 @@ def run(songs)
   else user_command == "help"
     help
   end
-  user_command
 end
