@@ -52,10 +52,10 @@ def run(songs)
     when "list"
     list
     
-    when user_command == "play"
+    when "play"
     play
     
-    when user_command == "help"
+    when "help"
     help
    end
   end
