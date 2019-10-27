@@ -28,7 +28,7 @@ def play(songs)
   valid_input = [#{index+1}, #{song}]
   puts "Please enter a song name or number:"
   user_response = gets.strip
-  
+end   
  # songs.each 
   
     #if user_response == valid_input
@@ -36,8 +36,6 @@ def play(songs)
     #else 
      # puts "Invalid input, please try again"
     #end 
-  end
-end
 
 def exit_jukebox
   puts "Goodbye"
